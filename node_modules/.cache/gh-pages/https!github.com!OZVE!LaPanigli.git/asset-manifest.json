@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LaPanigli/static/css/main.f855e6bc.css",
+    "main.js": "/LaPanigli/static/js/main.b4aa53a9.js",
+    "static/js/787.92b60eab.chunk.js": "/LaPanigli/static/js/787.92b60eab.chunk.js",
+    "index.html": "/LaPanigli/index.html",
+    "main.f855e6bc.css.map": "/LaPanigli/static/css/main.f855e6bc.css.map",
+    "main.b4aa53a9.js.map": "/LaPanigli/static/js/main.b4aa53a9.js.map",
+    "787.92b60eab.chunk.js.map": "/LaPanigli/static/js/787.92b60eab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.b4aa53a9.js"
+  ]
+}

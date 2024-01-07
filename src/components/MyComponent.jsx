@@ -22,7 +22,7 @@ function MyComponent(props) {
               alt=" "
             />
             <div className="div-5">
-              <div className="div-6">Home</div>
+              <div className="div-6">Dome</div>
               <div className="div-7">Menu</div>
               <div className="div-8">About Us</div>
               <div className="div-9">a   a </div>
@@ -297,12 +297,13 @@ function MyComponent(props) {
           align-items: flex-start;
           justify-content: space-between;
           gap: 60px;
-          overflow: hidden
+          overflow: hidden; /* Add a semicolon here */
           margin: auto 0;
         }
+        
         .div-6 {
           color: #fff;
-          align-self: start;
+          align-self: center;
           font: 500 14px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
         }
@@ -473,7 +474,6 @@ function MyComponent(props) {
           align-self: stretch;
           margin-top: 82px;
           width: 100%;
-          padding-left: 80px;
           background-image: url(https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2F6e151654b3214afd931a554e3e623280);
           background-repeat: no-repeat;
           background-position: center;
@@ -489,14 +489,18 @@ function MyComponent(props) {
         .div-19 {
           gap: 20px;
           display: flex;
+          width: 100%;
         }
+        
         @media (max-width: 991px) {
           .div-19 {
             flex-direction: column;
             align-items: stretch;
             gap: 0px;
+            width: 100%; 
           }
         }
+        
         .column-3 {
           display: flex;
           flex-direction: column;
@@ -504,11 +508,14 @@ function MyComponent(props) {
           width: 55%;
           margin-left: 0px;
         }
+        
         @media (max-width: 991px) {
           .column-3 {
             width: 100%;
+            margin-left: 0; 
           }
         }
+        
         .div-20 {
           display: flex;
           flex-direction: column;
@@ -809,7 +816,7 @@ function MyComponent(props) {
           justify-content: center;
           align-items: center;
           background-color: rgba(160, 183, 167, 1);
-          padding: 101px 60px 50px;
+          padding: 101px 0px 50px;
         }
         @media (max-width: 991px) {
           .div-37 {

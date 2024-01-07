@@ -185,7 +185,7 @@ function MyComponent(props) {
                 </div>
               </div>
               <div className="div-48">
-                <div className="div-49">Contact Us</div>
+                <div className="div-49">Contactanos</div>
                 <div className="div-50">
                   Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
                   Bangalore-560016
@@ -199,89 +199,90 @@ function MyComponent(props) {
         </div>
       </div>
       <style jsx>{`
-        /* Common styles */
+  /* Common styles */
 
-        .div {
-          display: flex;
-          flex-direction: column;
-          position: relative;
-          margin-top: 20px;
-        }
+  .div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+  }
 
-        .div-2,
-        .div-37 {
-          display: flex;
-          flex-direction: column;
-          overflow: hidden;
-          align-self: stretch;
-          position: relative;
-          display: flex;
-          justify-content: center;
-        }
+  .div-2,
+  .div-37 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
 
-        .div-37 {
-          background-color: rgba(160, 183, 167, 1);
-          padding: 101px 60px 50px;
-        }
+  .div-37 {
+    background-color: rgba(160, 183, 167, 1);
+    padding: 101px 60px 50px;
+  }
 
-        @media (max-width: 991px) {
-          /* Responsive styles */
+  @media (max-width: 991px) {
+    /* Responsive styles */
 
-          .div-2,
-          .div-3,
-          .div-4,
-          .div-12,
-          .div-14,
-          .div-15,
-          .div-16,
-          .div-18,
-          .div-24,
-          .div-28,
-          .div-30,
-          .div-31,
-          .div-32,
-          .div-37,
-          .div-38,
-          .div-40,
-          .div-44,
-          .div-46,
-          .div-47,
-          .div-50 {
-            max-width: 100%;
-          }
+    .div-2,
+    .div-3,
+    .div-4,
+    .div-12,
+    .div-14,
+    .div-15,
+    .div-16,
+    .div-18,
+    .div-24,
+    .div-28,
+    .div-30,
+    .div-31,
+    .div-32,
+    .div-37,
+    .div-38,
+    .div-40,
+    .div-44,
+    .div-46,
+    .div-47,
+    .div-50 {
+      max-width: 100%;
+    }
 
-          .div-3,
-          .div-18,
-          .div-24,
-          .div-31,
-          .div-37 {
-            padding: 0 20px;
-          }
+    .div-3,
+    .div-18,
+    .div-24,
+    .div-31,
+    .div-37 {
+      padding: 0 20px;
+    }
 
-          .div-4,
-          .div-12,
-          .div-14,
-          .div-30,
-          .div-38 {
-            flex-wrap: wrap;
-          }
+    .div-4,
+    .div-12,
+    .div-14,
+    .div-30,
+    .div-38 {
+      flex-wrap: wrap;
+    }
 
-          .div-16,
-          .div-24,
-          .div-32,
-          .div-40 {
-            font-size: 40px;
-          }
+    .div-16,
+    .div-24,
+    .div-32,
+    .div-40 {
+      font-size: 40px;
+    }
 
-          .div-37 {
-            background-color: rgba(160, 183, 167, 1);
-            padding: 101px 60px 50px;
-          }
-        }
+    .div-37 {
+      background-color: rgba(160, 183, 167, 1);
+      padding: 101px 60px 50px;
+    }
+  }
 
-        /* Your component specific styles go here */
+  /* Your component specific styles go here */
 
-      `}</style>
+`}</style>
+
     </>
   );
 }

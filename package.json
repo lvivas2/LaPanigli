@@ -4,10 +4,11 @@
   "private": true,
   "homepage": "https://ozve.github.io/LaPanigli/",
   "dependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^1.0.",
+    "@babel/plugin-transform-private-property-in-object": "*",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "nodemon": "^3.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
@@ -15,6 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "react-scripts": "5.0.1"
   },
   "scripts": {
@@ -38,7 +40,6 @@
       "not op_mini all"
     ],
     "development": [
-      
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"

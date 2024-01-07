@@ -22,10 +22,9 @@ function MyComponent(props) {
               alt=" "
             />
             <div className="div-5">
-              <div className="div-6">Dome</div>
-              <div className="div-7">Menu</div>
-              <div className="div-8">About Us</div>
-              <div className="div-9">a   a </div>
+              <div className="div-6">Inicio</div>
+              <div className="div-7">Nosotros</div>
+              <div className="div-8">Contacto</div>
             </div>
           </div>
           <img
@@ -158,7 +157,7 @@ function MyComponent(props) {
             />{" "}
             <div className="div-38">
               <div className="div-39">
-                <div className="div-40">Bean Scene</div>{" "}
+                <div className="div-40">La Paniglia</div>{" "}
                 <div className="div-41">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -173,39 +172,14 @@ function MyComponent(props) {
                   alt=" "
                 />
               </div>
-              <div className="div-42">
-                <div className="div-43">About</div>
-                <div className="div-44">
-                  Menu
-                  <br />
-                  Features
-                  <br />
-                  News & Blogs
-                  <br />
-                  Help & Supports
-                </div>
-              </div>
-              <div className="div-45">
-                <div className="div-46">Company</div>
-                <div className="div-47">
-                  How we work
-                  <br />
-                  Terms of service
-                  <br />
-                  Pricing
-                  <br />
-                  FAQ
-                </div>
-              </div>
               <div className="div-48">
-                <div className="div-49">Contact Us</div>
+                <div className="div-49">Contactanos</div>
                 <div className="div-50">
-                  Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
-                  Bangalore-560016
+                Gascon 1530 - Palermo
                 </div>
                 <div className="div-51">+1 202-918-2132</div>
-                <div className="div-52">beanscene@mail.com</div>
-                <div className="div-53">www.beanscene.com</div>
+                <div className="div-52">info@lapaniglia.com.ar</div>
+                <div className="div-53">www.lapaniglia.com.ar</div>
               </div>
             </div>
           </div>
@@ -269,9 +243,11 @@ function MyComponent(props) {
         .div-4 {
           align-self: stretch;
           display: flex;
+          flex-wrap: wrap;
           justify-content: space-between;
           gap: 20px;
-          margin: 0 13px;
+          margin: 0px 100px 1px 10px;
+          max-width: 100%;
         }
         @media (max-width: 991px) {
           .div-4 {
@@ -295,10 +271,17 @@ function MyComponent(props) {
           align-self: center;
           display: flex;
           align-items: flex-start;
-          justify-content: space-between;
-          gap: 60px;
-          overflow: hidden; /* Add a semicolon here */
-          margin: auto 0;
+          justify-content: flex-start;
+          gap: 10px;
+          overflow: hidden;
+          margin: 0%;
+        }
+        
+        @media (max-width: 991px) {
+          .div-5 {
+            flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+            justify-content: flex-start; /* Align items to the start on smaller screens */
+          }
         }
         
         .div-6 {
@@ -319,11 +302,6 @@ function MyComponent(props) {
           font: 500 14px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
         }
-        .div-9 {
-          color: #fff;
-          align-self: start;
-          font: 500 14px Playfair Display, -apple-system, Roboto, Helvetica,
-            sans-serif;
         }
         .img-3 {
           aspect-ratio: 1.7;
@@ -816,7 +794,7 @@ function MyComponent(props) {
           justify-content: center;
           align-items: center;
           background-color: rgba(160, 183, 167, 1);
-          padding: 101px 0px 50px;
+          padding: 0px 0px 50px;
         }
         @media (max-width: 991px) {
           .div-37 {
@@ -832,7 +810,7 @@ function MyComponent(props) {
           align-items: start;
           justify-content: space-between;
           gap: 20px;
-          margin: 120px 0 22px;
+          margin: 0px 0 22px;
         }
         @media (max-width: 991px) {
           .div-38 {
@@ -941,30 +919,30 @@ function MyComponent(props) {
         }
         .div-50 {
           color: #fff;
-          margin-top: 43px;
+          margin-top: 20px;
           font: 400 18px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
         }
         @media (max-width: 991px) {
           .div-50 {
-            margin-top: 40px;
+            margin-top: 20px;
           }
         }
         .div-51 {
           color: #fff;
-          margin-top: 36px;
+          margin-top: 20px;
           font: 400 18px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
         }
         .div-52 {
           color: #fff;
-          margin-top: 29px;
+          margin-top: 20px;
           font: 400 18px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
         }
         .div-53 {
           color: #fff;
-          margin-top: 29px;
+          margin-top: 20px;
           font: 400 18px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
         }

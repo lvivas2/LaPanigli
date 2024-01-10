@@ -104,12 +104,12 @@ function MyComponent(props) {
           <div className="div-27">
             <div className="column-5">
               <div className="div-28">
-                <img
+                {/* <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/38bedfe218c271d280bec63044d86c18153c7b98122f8edfc5a6ad027581bd74?apiKey=ed8b2ea899284c0685a527cf3cea6f83&"
                   className="img-7"
                   alt=" "
-                />
+                /> */}
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2Fa20dd3582556458685b180d830dcf996"
@@ -136,12 +136,12 @@ function MyComponent(props) {
                     <div className="div-34">Jonny Thomas</div>{" "}
                     <div className="div-35">Project Manager</div>
                   </div>{" "}
-                  <img
+                  {/* <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5423c5afa826358373d1fe7393e1776cb19df8a570af6badee69820530d7d54?apiKey=ed8b2ea899284c0685a527cf3cea6f83&"
                     className="img-9"
                     alt=" "
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -165,12 +165,7 @@ function MyComponent(props) {
                   printer took a galley of type and scrambled it to make a type
                   specimen book.
                 </div>
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd9408354f49b5d059a773b4d207f36dde262a729aeda38340d829a7b3465bf0?apiKey=ed8b2ea899284c0685a527cf3cea6f83&"
-                  className="img-10"
-                  alt=" "
-                />
+                
               </div>
               <div className="div-48">
                 <div className="div-49">Contactanos</div>
@@ -180,6 +175,12 @@ function MyComponent(props) {
                 <div className="div-51">+1 202-918-2132</div>
                 <div className="div-52">info@lapaniglia.com.ar</div>
                 <div className="div-53">www.lapaniglia.com.ar</div>
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/fd9408354f49b5d059a773b4d207f36dde262a729aeda38340d829a7b3465bf0?apiKey=ed8b2ea899284c0685a527cf3cea6f83&"
+                  className="img-10"
+                  alt=" "
+                />
               </div>
             </div>
           </div>
@@ -232,7 +233,7 @@ function MyComponent(props) {
         @media (max-width: 991px) {
           .div-3 {
             max-width: 100%;
-            padding: 0 20px;
+            padding: 0px;
           }
         }
         @media (max-width: 640px) {
@@ -251,7 +252,7 @@ function MyComponent(props) {
         }
         @media (max-width: 991px) {
           .div-4 {
-            max-width: 100%;
+            
             margin-right: 10px;
             flex-wrap: wrap;
           }
@@ -335,7 +336,6 @@ function MyComponent(props) {
         @media (max-width: 991px) {
           .div-12 {
             max-width: 100%;
-            padding-right: 20px;
             margin-top: 40px;
           }
         }
@@ -382,7 +382,7 @@ function MyComponent(props) {
         @media (max-width: 991px) {
           .div-15 {
             max-width: 100%;
-            padding-left: 20px;
+            padding: 0px;
           }
         }
         .div-16 {
@@ -395,11 +395,11 @@ function MyComponent(props) {
           .div-16 {
             max-width: 100%;
             font-size: 40px;
+            margin: 0px;
           }
         }
         .div-17 {
           color: #707070;
-          width: 585px;
           margin: 51px 0 0 13px;
           font: 400 20px/34px Playfair Display, -apple-system, Roboto, Helvetica,
             sans-serif;
@@ -407,7 +407,7 @@ function MyComponent(props) {
         @media (max-width: 991px) {
           .div-17 {
             max-width: 100%;
-            margin-top: 40px;
+            margin: 10px;
           }
         }
         .img-4 {
@@ -430,7 +430,7 @@ function MyComponent(props) {
         }
         @media (max-width: 991px) {
           .column-2 {
-            width: 100%;
+            width: auto;
           }
         }
         .img-5 {
@@ -451,16 +451,16 @@ function MyComponent(props) {
           background-color: var(--coffee, #603809);
           align-self: stretch;
           margin-top: 82px;
-          width: 100%;
+          width: auto;
           background-image: url(https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2F6e151654b3214afd931a554e3e623280);
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
+          overflow: hidden;
         }
         @media (max-width: 991px) {
           .div-18 {
             max-width: 100%;
-            padding-left: 20px;
             margin-top: 40px;
           }
         }
@@ -476,6 +476,9 @@ function MyComponent(props) {
             align-items: stretch;
             gap: 0px;
             width: 100%; 
+          }
+          .div-19 img{
+            width: 100%;
           }
         }
         
@@ -631,7 +634,7 @@ function MyComponent(props) {
         @media (max-width: 991px) {
           .div-28 {
             max-width: 100%;
-            margin-top: 40px;
+            margin-top: 0px;
           }
         }
         .img-7 {
@@ -666,7 +669,8 @@ function MyComponent(props) {
         }
         @media (max-width: 991px) {
           .column-6 {
-            width: 100%;
+            width: auto;
+            margin: 10px;
           }
         }
         .div-29 {
@@ -690,6 +694,7 @@ function MyComponent(props) {
           .div-30 {
             max-width: 100%;
             flex-wrap: wrap;
+            padding: 0px;
           }
         }
         .div-31 {
@@ -799,7 +804,6 @@ function MyComponent(props) {
         @media (max-width: 991px) {
           .div-37 {
             max-width: 100%;
-            padding: 0 20px;
           }
         }
         .div-38 {
@@ -817,6 +821,7 @@ function MyComponent(props) {
             max-width: 100%;
             flex-wrap: wrap;
             margin-top: 40px;
+            flex-direction:column;
           }
         }
         .div-39 {
@@ -911,6 +916,8 @@ function MyComponent(props) {
           flex-grow: 1;
           flex-basis: 0%;
           flex-direction: column;
+          width: 100%;
+          align-items: center;
         }
         .div-49 {
           color: #fff;

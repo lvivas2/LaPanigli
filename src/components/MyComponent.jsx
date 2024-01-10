@@ -304,15 +304,15 @@ function MyComponent(props) {
         }
         }
         .img-3 {
-          aspect-ratio: 1.7;
+          aspect-ratio: 0.5;
           object-fit: cover;
-          object-position: center;
+          object-position: left;
           width: 100%;
-          margin-top: 20px;
+          margin-top: 0px;
           min-height: 20px;
-          min-width: 20px;
+          min-width: 0px;
           overflow: hidden;
-          max-width: 1107px;
+          max-width: 999px;
         }
         .div-10 {
           display: flex;

@@ -450,7 +450,7 @@ function MyComponent(props) {
         .div-18 {
           background-color: var(--coffee, #603809);
           align-self: stretch;
-          margin-top: 82px;
+          margin-top: 81px;
           width: auto;
           background-image: url(https://cdn.builder.io/api/v1/image/assets%2Fed8b2ea899284c0685a527cf3cea6f83%2F6e151654b3214afd931a554e3e623280);
           background-repeat: no-repeat;

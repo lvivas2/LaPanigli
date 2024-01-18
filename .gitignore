@@ -54,3 +54,7 @@ dist-ssr
 cypress.env.json
 
 .env.json
+
+
+# .gitignore
+node_modules/

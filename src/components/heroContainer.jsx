@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export default function heroContainer() {
+export default function HeroContainer() {
   return (
     <>
       <div className="div-2">
